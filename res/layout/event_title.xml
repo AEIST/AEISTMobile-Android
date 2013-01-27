@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50dip"
+    android:background="@color/DarkGrey">
+    
+    <TextView
+        android:id="@+id/EventTitleName"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:paddingLeft="10dip"
+        android:layout_alignParentLeft="true"
+        android:text="Event name"
+        android:textStyle="bold"
+        android:gravity="center"        
+        android:textColor="@color/SkyBlue" />
+    
+    <TextView 
+        android:id="@+id/EventTitleMap"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:paddingRight="10dip"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:text="Map"
+        android:textStyle="bold"        
+        android:textColor="@color/SkyBlue"/>
+    
+    <TextView 
+        android:id="@+id/EventTitleShare"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_centerVertical="true"
+        android:gravity="center"        
+        android:layout_toLeftOf="@+id/EventTitleMap"
+        android:paddingRight="15dip"
+        android:text="Share"
+        android:textStyle="bold"        
+        android:textColor="@color/SkyBlue"/>
+    
+    <TextView 
+        android:id="@+id/EventTitleFacebook"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_centerVertical="true"
+        android:gravity="center"        
+        android:layout_toLeftOf="@+id/EventTitleShare"
+        android:paddingRight="15dip"
+        android:text="FB"
+        android:textStyle="bold"        
+        android:textColor="@color/SkyBlue"/>    
+
+</RelativeLayout>
