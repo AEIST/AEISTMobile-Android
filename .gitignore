@@ -1,0 +1,8 @@
+.classpath
+.git/*
+.project
+bin/*
+gen/*
+libs/*
+project.properties
+proguard-project.txt

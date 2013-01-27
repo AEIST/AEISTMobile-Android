@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AEIST Mobile</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_aeistmobile">AEIST Mobile</string>
+    <string name="gefe">GEFE</string>
+    <string name="desporto">Desporto</string>
+    <string name="recreativa">Recreativa e Cultural</string>
+    <string name="politica_educativa">Politica Educativa</string>
+    <string name="ultimas_noticias">Ultimas</string>
+    <string name="aeist">AEIST</string>
+    <string name="EventInfo">Informação</string>
+    <string name="EventLocation">Localização</string>
+    <string name="EventFacebook">Facebook</string>
+    <string name="apiKey">AIzaSyDK9hzRBYpC71Kdrc21eRKbi776_2snv6k</string>
+</resources>
